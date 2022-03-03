@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testing-site';
+
+  onClick(){
+    alert('you clicked on button..');
+  }
 }
